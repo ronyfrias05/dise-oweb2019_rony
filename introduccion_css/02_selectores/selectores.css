@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header {
+    background: #3367D6;
+    font-size: 2em;
+}
+
+section {
+    background: lightgray;
+}
+
+.negrita {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.gris-cursiva {
+    font-style: italic;
+    font-size: 2em;
+    color: gray;
+}
+
+.subrayado {
+    text-decoration: underline;
+    font-size: 2em;
+}
