@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #BDC3C7;
+    font-family: Arial;
+}
+
+a {
+    color: #374140;
+}
+
+p {
+    color: #2A2C2B;
+}
+
+#biografia {
+    color: #272928;
+}
+
+#carrera {
+    color: #222322;
+}
+
+#premios {
+    color: #1f2020;
+}
+
+#vida_personal {
+    color: #1c1d1d;
+}
+
+#galerias_de_imagenes {
+    color: #191a1a;
+}
