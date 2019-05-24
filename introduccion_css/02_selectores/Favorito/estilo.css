@@ -21,23 +21,44 @@ p {
 }
 
 #biografia {
-    color: #272928;
+    background: #272928;
 }
 
 #carrera {
-    color: #222322;
+    background: #222322;
 }
 
 #premios {
-    color: #1f2020;
+    background: #1f2020;
 }
 
 #vida_personal {
-    color: #1c1d1d;
+    background: #1c1d1d;
 }
 
 #galerias_de_imagenes {
-    color: #191a1a;
+    background: #191a1a;
 }
 
 /* Herencia Css */
+nav {
+    background: #DDD;
+    padding: 10px;
+    border: solid 1px gray;
+}
+
+nav a {
+    color: dodgerblue;
+    padding: 5px;
+    margin: 10px;
+    border: solid 1px dodgerblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #FFF;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: dodgerblue;
+    color: white;
+}
