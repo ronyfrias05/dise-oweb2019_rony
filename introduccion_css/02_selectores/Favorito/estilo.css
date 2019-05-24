@@ -8,6 +8,10 @@ body {
     font-family: Arial;
 }
 
+h1, h2 {
+    color: #BEDB39;
+}
+
 a {
     color: #374140;
 }
@@ -35,3 +39,5 @@ p {
 #galerias_de_imagenes {
     color: #191a1a;
 }
+
+/* Herencia Css */
