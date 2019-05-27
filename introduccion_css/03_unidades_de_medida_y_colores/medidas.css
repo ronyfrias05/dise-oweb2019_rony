@@ -1,0 +1,53 @@
+.pixel {
+    background: #BEDB39;
+    width: 200px;
+    height: 200px;
+}
+
+.pixel2 {
+    background: #04BFBF;
+    width: 100px;
+    height: 100px;
+}
+
+.pixel3 {
+    background: #ff5252;
+    width: 300px;
+    height: 300px;
+}
+
+.pixel4 {
+    background: #FF6138;
+    width: 400px;
+    height: 400px;
+}
+
+.pixel5 {
+    background: #512DA8;
+    width: 50px;
+    height: 50px;
+}
+
+.relativo_pixel {
+ font-size: 20px;
+}
+
+.porciento {
+    background: chocolate;
+    width: 50%;
+}
+
+.porciento75 {
+    background: chartreuse;
+    width: 75%;
+    margin: 20px;
+}
+
+.porciento100 {
+    background: chocolate;
+    width: 100%;
+}
+
+body {
+    width: 50%
+}
