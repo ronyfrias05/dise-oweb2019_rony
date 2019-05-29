@@ -72,3 +72,23 @@
 .size_porciento {
     font-size: 10%;
 }
+
+.size_cm {
+    font-size: 10cm;
+    background: #04BFBF
+}
+
+.size_mm {
+    font-size: 10mm;
+    background: #04BFBF
+}
+
+.size_pt {
+    font-size: 10pt;
+    background: #04BFBF
+}
+
+.size_in {
+    font-size: 10in;
+    background: #04BFBF
+}
