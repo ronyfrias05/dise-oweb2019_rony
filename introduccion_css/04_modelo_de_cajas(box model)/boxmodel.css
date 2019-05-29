@@ -1,0 +1,49 @@
+/* Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Quitarle el subrayado */
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial;
+}
+
+/* Estilo para el nav */
+nav {
+    background: #3F85Df;
+    width: 400px;
+    height: 100vh;
+    border: solid 1px #707070;
+}
+
+nav h1, nav a {
+    color: #ffffff;
+    font-size: 36px;
+}
+nav ul li {
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    border: solid 1px #707070;
+}
+nav h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+
+    font-weight: normal;
+}
