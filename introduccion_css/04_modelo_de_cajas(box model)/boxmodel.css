@@ -40,6 +40,15 @@ nav ul li {
     border: solid 1px #707070;
     display: inline-block;
 }
+
+ul {
+    display: flex;
+}
+
+li {
+    flex: 1;
+}
+
 nav h1 {
     padding-top: 30px;
     padding-bottom: 20px;

@@ -1,0 +1,8 @@
+/* En Linea */
+a, abbr, b, cite, code, dfn, em, i, input, kbd, label, q, s, samp, small, span, strong, sub, sup, textarea, u, var {
+    display: block;
+}
+/* En Blque */
+ul, table, pre, p, ol, menu, hr, h6, h5, h4, h3, h2, h1, form, fieldset, dl, blockquote, address, h1 {
+ display: inline;
+}
