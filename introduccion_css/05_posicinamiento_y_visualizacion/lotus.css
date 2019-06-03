@@ -9,7 +9,6 @@ body {
 }
 
 section {
-    background: lightgray;
     display: flex;
     height: 200px;
     flex-direcction: row;
@@ -17,15 +16,14 @@ section {
 }
 
 section div {
-    background: gray;
 }
 
-section, div {
+section, 
+div {
     padding: 10px;
 }
 
 div a {
-    color: #aaa;
     text-decoration: none;
     font-family: Arial;
 }
@@ -43,8 +41,22 @@ nav {
     padding-bottom: 25px;
 }
 
-a {
+nav a {
+    text-decoration: none;
+    color: #aaa;
     margin-left: 15px;
+}
+
+/* Cambiar color en el hover  */
+nav a:hover {
+    color: orangered;
+    border-bottom: solid 1px orangered;
+}
+
+section article div {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .container {
@@ -53,4 +65,60 @@ a {
     margin-right: auto;
 }
 
+section article div {
+    width: 50%;
+}
 
+section article div h1 {
+    margin-bottom: 50px;
+    margin-top: 10px;
+    font-size: 50px;
+}
+
+section article div p {
+    font-size: 13px;
+    width: 75%;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+/* Clases de utilidad */
+.btn {
+    background: #ccc;
+    text-decoration: none;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color:#fff;
+}
+
+.text-orange {
+    color:#dd3b01;
+}
+
+.bg-orange {
+    background-color:#dd3b01;
+}
+
+.bg-darkgray {
+        background-color: #313243;
+}
+
+.text-darkgray {
+ccolor: #313243;
+}
+
+.text-lightgray {
+ccolor: #aaa;
+}
+
+/* Agregar fondo */
+section#principal {
+    height: 100vh;
+    background-image: url("yoga.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+
+}
