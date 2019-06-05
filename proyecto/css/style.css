@@ -1,13 +1,72 @@
-section nav a {
-    text-decoration: none;
-}
-.container {
-    width: 50%;
-    margin-left: 150px;
-    margin-right: 150px;
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    color: #fff;
+    font-family: 'Lato',
+    sans-serif;
 }
 
-header nav div a {
-    display: flex;
-    justify-content: space-between;
+h1, h2 ,h3, h4, h5, h6 {
+    font-family: 'Oswald',
+    sans-serif;
+}
+
+section#principal h1, ul {
+   
+}
+
+section {
+    background: rgba(0, 0, 0, .5);
+}
+
+.fullscreen {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+section nav ul li {
+    list-style-type: decimal;
+}
+
+#principal img {
+    position: relative;
+    left: 60%;
+    top: 200px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 1%;
+}
+
+#principal h1 {
+    margin: 3%;
+}
+
+section p {
+    text-align: center;
+    padding: 50px 100px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 0px 0px 0px 50px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 100px 50px 100px 200px;
+}
+
+section ul li {
+    font-size: 30px;
+    list-style-position: inside;
+    padding: 0px 0px 10px 50px; 
+}
+
+section#principal nav ul li a {
+    color: #fff;
 }
