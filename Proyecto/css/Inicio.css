@@ -22,34 +22,47 @@ section aside {
     padding: 40px 70px;
     margin: 10px 15% 10px 0px;
     color: #fff;
+    border-radius: 2%; 
 }
 
 section aside h3 {
     text-align: center;
     padding: 20px 0px;
+    font-weight: normal;
 }
 
 section aside form input {
     display: block;
     margin: 10px 0px;
-    border: 1px solid #000;
+    border: 1px solid rgba(0, 0, 0, .5);
     background: #303339;
     width: 200px;
-    
+    height: 30px;
+    border-radius: 5%;
 }
 
-section aside form label {
-    font-weight: bold;
+section aside input:hover {
+    border: 1px solid #000;
+}
+
+section aside input:focus {
+    border: 1px solid #54618d;
 }
 
 section aside input.cajita {
+    border-radius: 5%;
+    border: 1px solid #7289da;
     font-size: 15px;
     font-weight: bold;
     padding: 3%;
+    margin-top: 30px;
     margin-bottom: 0px;
+    color: rgba(255, 255, 255, .8);
+    background: #7289da;
+}
+
+section aside input.cajita:hover {
     color: #fff;
-    border: none;
-    background: #54618d;
 }
 
 footer {
