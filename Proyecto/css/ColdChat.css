@@ -14,7 +14,7 @@ body {
     /*background-repeat: round;*/
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3 {
     font-family: 'Noto Sans',sans-serif;
 }
 
@@ -61,7 +61,6 @@ header nav ul li a:hover {
 .parte2 {
     padding: 5px 10px;
     margin-right: 130px;
-    align-items: space-around;
     border: 2px solid rgba(255, 255, 255, .7);
 }
 
