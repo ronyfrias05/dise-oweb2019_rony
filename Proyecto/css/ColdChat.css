@@ -7,11 +7,11 @@
 }
 
 body {
-    width: 90%;
-    max-width: 1800px;
+    width: 100%;
+    max-width: 1600px;
     margin: 0px auto;
-    background-image: url(img/black.png);*/
-    background-repeat: round;*/
+    /*background-image: url(img/black.png);*/
+    /*background-repeat: round;*/
 }
 
 h1, h2, h3, h4, h5, h6, {
@@ -23,7 +23,7 @@ p, a{
 }
 
 header nav ul li img {
-    padding: 10px 0px 0px 20px;
+    padding: 0px 0px 0px 20px;
     width: 60px;
 }
 
@@ -33,7 +33,7 @@ header nav ul li img {
 }
 
 header {
-    /*background: #000;*/
+    background: #000;
 }
 
 header nav {
@@ -43,18 +43,25 @@ header nav {
 
 header nav ul li, a {
     margin-right: 10px;
-    color: #fff;
+    color: rgba(255, 255, 255, .7);
     text-decoration: none;
     display: inline-block;
     list-style-type: none;
 }
 
+header nav ul li a:hover {
+    color: #fff;
+}
+
 .parte1 {
     align-items: center;
-    padding-right: 34em;
+    padding-right: 0em;
 }
 
 .parte2 {
-    margin-right: 100px;
+    padding: 5px 10px;
+    margin-right: 130px;
+    align-items: space-around;
+    border: 2px solid rgba(255, 255, 255, .7);
 }
 
