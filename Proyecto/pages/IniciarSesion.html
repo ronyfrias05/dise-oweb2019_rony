@@ -8,10 +8,12 @@
     <title>Iniciar sesion</title>
     <link rel="stylesheet" href="../css/ColdChat.css">
     <link rel="shortcut icon" href="../img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/Pie.css">
+    <link rel="stylesheet" href="../css/IniciarSesion.css">
 </head>
 
 <body>
-
+  
     <header>
         <nav class="flex">
 
@@ -33,18 +35,51 @@
 
         <section>
 
-            <article>
-                
+            <article class="bottom">
+                <h3>Inicia sesión</h3>
+                <form action="#">
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+
+                    <label for="sifrado">Contraseña:</label>
+                    <input type="password" name="sifrado" id="sifrado">
+
+                    <input type="submit" value="Iniciar sesión" class="cajita">
+                </form>
+
             </article>
 
         </section>
 
-        <aside></aside>
-
     </section>
-    <footer></footer>
 
-    <script src="../js/ColdChat.js"></script>
+    <footer>
+        <nav class="flextemp">
+            <img src="../img/logoOf.png" alt="logo">
+            <ul>
+                <li>ColdChat</li>
+                <li><a href="#">Sala 1</a></li>
+                <li><a href="#">Sala 2</a></li>
+                <li><a href="#">Sala 3</a></li>
+            </ul>
+
+            <ul>
+                <li>Comunidad</li>
+                <li><a href="#">Loby</a></li>
+            </ul>
+
+            <ul>
+                <li>Compañía</li>
+                <li><a href="#" class="anchura">Desarrollador de la pagina</a></li>
+            </ul>
+
+            <ul>
+                <li class="centro"><a href="../pages/IniciarSesion.html" class="anchura">Iniciar sesion</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="../js/IniciarSesion.js"></script>
 </body>
 
 </html>

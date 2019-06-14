@@ -7,13 +7,17 @@ section {
 }
 
 h2 {
+    font-size: 40px;
     padding-bottom: 5%;
     padding-left: 10%;
+    /*color: #fff;*/
 }
 
 p {
+    font-size: 30px;
     padding-left: 10%;
-    width: 50%;
+    width: 70%;
+    /*color: #fff;*/
 }
 
 section aside {
@@ -26,12 +30,20 @@ section aside {
 }
 
 section aside h3 {
+    font-size: 25px;
     text-align: center;
     padding: 20px 0px;
     font-weight: normal;
 }
 
+section aside label {
+    font-size: 20px;
+}
+
 section aside form input {
+    color: #fff;
+    font-size: 18px;
+    padding: 0% 3%;
     display: block;
     margin: 10px 0px;
     border: 1px solid rgba(0, 0, 0, .5);
@@ -57,21 +69,17 @@ section aside input.cajita {
     padding: 3%;
     margin-top: 30px;
     margin-bottom: 0px;
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, .7);
     background: #7289da;
 }
 
 section aside input.cajita:hover {
+    background: #54618d;
+    border: none;
     color: #fff;
+    cursor: pointer;
 }
 
-footer {
 
-}
-
-footer img {
-    padding: 0px 0px 0px 20px;
-    width: 60px;
-}
 
 

@@ -1,0 +1,66 @@
+section article {
+    position: relative;
+    top: 250px;
+    border: 1px solid #2c2e33;
+    background: #36393f;
+    padding: 20% auto;
+    margin: auto 20%;
+    color: #fff;
+    border-radius: 2%; 
+}
+
+section article h3 {
+    font-size: 35px;
+    text-align: center;
+    padding: 40px 0px 60px 0px;
+    font-weight: normal;
+}
+
+section article label {
+    font-size: 30px;
+    padding: 0px 20%;
+}
+
+section article form input {
+    color: #fff;
+    font-size: 25px;
+    padding: 0% 1%;
+    display: block;
+    margin: 5% 20% 5% 20%;
+    border: 1px solid rgba(0, 0, 0, .5);
+    background: #303339;
+    width: 60%;
+    height: 40px;
+    border-radius: 5%;
+}
+
+section article input:hover {
+    border: 1px solid #000;
+}
+
+section article input:focus {
+    border: 1px solid #54618d;
+}
+
+section article input.cajita {
+    border-radius: 5%;
+    border: 1px solid #7289da;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3% 0% 7% 0%;
+    margin: 10% 20%;
+    color: rgb(255, 255, 255);
+    background: #7289da;
+}
+
+input.cajita[value="Iniciar sesión"] {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+section article input.cajita:hover {
+    background: #54618d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}

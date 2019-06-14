@@ -10,7 +10,7 @@ body {
     width: 100%;
     max-width: 1600px;
     margin: 0px auto;
-    /*background-image: url(img/black.png);*/
+    /*background-image: url(../img/black.png);*/
     /*background-repeat: round;*/
 }
 
@@ -26,7 +26,6 @@ header nav ul li img {
     padding: 0px 0px 0px 20px;
     width: 60px;
 }
-
 
 .flex {
     display: flex;

@@ -1,0 +1,45 @@
+footer {
+    margin: 40% 7% 0% 7%;
+    padding: 30px 10px 30px 10px;
+    background: #000;
+    color: #ffffff;
+}
+
+.flextemp {
+    display: flex;
+}
+
+footer nav {
+    justify-content: space-between;
+}
+
+footer img {
+    padding-left: 20px;
+    width: 4%;
+    height: 4%;
+}
+
+footer nav ul li {
+    padding-bottom: 5px;
+    list-style-type: none;
+}
+
+footer nav ul li > a {
+    color: rgba(255, 255, 255, .7);
+}
+
+footer nav ul li > a:hover {
+    color: #fff;
+}
+
+.anchura {
+    width: 100px;
+}
+
+.centro {
+    font-weight: bold;
+    border-radius: 5%;
+    background: #7289da;
+    padding: 10px 15px;
+    margin: auto 100px auto 10px;
+}
