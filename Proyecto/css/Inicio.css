@@ -58,23 +58,24 @@ section aside input:hover {
 }
 
 section aside input:focus {
-    border: 1px solid #54618d;
+    border: 1px solid #1e71a9;
 }
 
 section aside input.cajita {
     border-radius: 5%;
-    border: 1px solid #7289da;
+    border: 1px solid #3498DB;
     font-size: 15px;
     font-weight: bold;
     padding: 3%;
     margin-top: 30px;
     margin-bottom: 0px;
+    margin-left: 10px;
     color: rgba(255, 255, 255, .7);
-    background: #7289da;
+    background: #3498DB;
 }
 
 section aside input.cajita:hover {
-    background: #54618d;
+    background: #1e71a9;
     border: none;
     color: #fff;
     cursor: pointer;

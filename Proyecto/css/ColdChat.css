@@ -10,8 +10,9 @@ body {
     width: 100%;
     max-width: 1600px;
     margin: 0px auto;
-    /*background-image: url(../img/black.png);*/
-    /*background-repeat: round;*/
+    background-image: url(../img/Diseño.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1, h2, h3 {
@@ -32,7 +33,7 @@ header nav ul li img {
 }
 
 header {
-    background: #000;
+    /*background: #000;*/
 }
 
 header nav {
@@ -42,7 +43,7 @@ header nav {
 
 header nav ul li, a {
     margin-right: 10px;
-    color: rgba(255, 255, 255, .7);
+    color: rgba(0, 0, 0, .7);
     text-decoration: none;
     display: inline-block;
     list-style-type: none;
@@ -57,9 +58,14 @@ header nav ul li a:hover {
     padding-right: 0em;
 }
 
+.parte1 a {
+    color: rgba(255, 255, 255, .7);
+}
+
 .parte2 {
-    padding: 5px 10px;
+    border-radius: 5%;
+    padding: 7px 15px;
     margin-right: 130px;
-    border: 2px solid rgba(255, 255, 255, .7);
+    background: #fff;
 }
 

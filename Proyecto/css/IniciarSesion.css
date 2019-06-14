@@ -1,9 +1,9 @@
 section article {
     position: relative;
-    top: 250px;
+    top: 200px;
     border: 1px solid #2c2e33;
     background: #36393f;
-    padding: 20% auto;
+    padding: 20px 100px;
     margin: auto 20%;
     color: #fff;
     border-radius: 2%; 
@@ -39,18 +39,18 @@ section article input:hover {
 }
 
 section article input:focus {
-    border: 1px solid #54618d;
+    border: 1px solid #1e71a9;
 }
 
 section article input.cajita {
     border-radius: 5%;
-    border: 1px solid #7289da;
+    border: 1px solid #3498DB;
     font-size: 15px;
     font-weight: bold;
     padding: 3% 0% 7% 0%;
     margin: 10% 20%;
     color: rgb(255, 255, 255);
-    background: #7289da;
+    background: #3498DB;
 }
 
 input.cajita[value="Iniciar sesión"] {
@@ -59,7 +59,7 @@ input.cajita[value="Iniciar sesión"] {
 }
 
 section article input.cajita:hover {
-    background: #54618d;
+    background: #1e71a9;
     border: none;
     color: #fff;
     cursor: pointer;

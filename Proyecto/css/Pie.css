@@ -1,8 +1,8 @@
 footer {
     margin: 40% 7% 0% 7%;
     padding: 30px 10px 30px 10px;
-    background: #000;
-    color: #ffffff;
+    /*background: #000;*/
+    color: #fff;
 }
 
 .flextemp {
@@ -39,7 +39,17 @@ footer nav ul li > a:hover {
 .centro {
     font-weight: bold;
     border-radius: 5%;
-    background: #7289da;
+    background: #fff;
     padding: 10px 15px;
     margin: auto 100px auto 10px;
+}
+
+.centro a {
+    color: #000;
+}
+
+span[class="copyright"] {
+    position: relative;
+    top: 30px;
+    font-size: 10px;
 }
