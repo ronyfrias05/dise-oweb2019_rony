@@ -1,0 +1,40 @@
+section {
+    display: flex;
+}
+
+article {
+    margin: 10% 20%
+}
+
+article textarea {
+    width: 700px;
+    height: 500px;
+    resize: none;
+    padding: 10px;
+    font-size: 30px;
+    border: 2px solid #000;
+}
+
+article label {
+    display: block;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+}
+
+article input {
+    display: block;
+    width: 700px;
+    height: 50px;
+    padding: 0px;
+    font-size: 40px;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+article button {
+    border: 2px solid #000;
+    margin: 10px 0px;
+    padding: 10px 45.7%;
+    display: block;
+}

@@ -29,27 +29,23 @@ footer nav ul li > a {
 }
 
 footer nav ul li > a:hover {
-    color: #fff;
-}
-
-.anchura {
-    width: 100px;
+    color: #000;
 }
 
 .centro {
     font-weight: bold;
     border-radius: 5%;
     background: #fff;
-    padding: 10px 15px;
+    padding: 10px 30px;
     margin: auto 100px auto 10px;
 }
 
 .centro a {
-    color: #000;
+    color: rgba(0, 0, 0, .7);
 }
 
 span[class="copyright"] {
     position: relative;
     top: 30px;
-    font-size: 10px;
+    font-size: 20px;
 }

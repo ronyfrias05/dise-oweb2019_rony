@@ -1,0 +1,15 @@
+section {
+    display: flex;
+}
+
+article {
+    margin: 10% 20%;
+    font-size: 30px;
+    padding: 10px;
+}
+
+article p {
+    padding: 10px 0px;
+    width: 700px;
+}
+

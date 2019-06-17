@@ -1,11 +1,15 @@
-h2 {
-    margin: 70px 0px 20px 50px;
+section {
+    display: flex;
+}
+
+article {
+    margin: 10% 15%;
+}
+article h2 {
+    font-size: 40px;
 }
 
 article img {
-
-    width: 1000px;
-    position: relative;
-    top: 150px;
-    left: 150px;
+    margin: 10% 0px;
+    display: block;
 }
